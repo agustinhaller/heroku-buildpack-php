@@ -57,6 +57,7 @@ LD_LIBRARY_PATH=${OUT_PREFIX} ./configure \
     --with-sqlite3=shared \
     --with-pdo-sqlite=shared \
     --with-xmlrpc=shared \
+    --with-gettext=shared \
     --with-xsl=shared
 make -s -j 9
 make install -s
